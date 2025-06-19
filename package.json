@@ -1,0 +1,22 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.42.0",
+    "fraction.js": "^5.2.2",
+    "parcel-bundler": "^1.12.5",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.89.0"
+  },
+  "htmlnano": {
+    "minifySvg": false
+  }
+}
